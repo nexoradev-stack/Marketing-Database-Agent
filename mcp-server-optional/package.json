@@ -1,0 +1,20 @@
+{
+  "name": "marketing-prospect-mcp",
+  "version": "1.0.0",
+  "description": "MCP server: searches the marketing BigQuery database and returns a downloadable prospect CSV",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^8.3.0",
+    "@google-cloud/storage": "^7.17.0",
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "express": "^4.22.3",
+    "zod": "^3.25.76"
+  }
+}
